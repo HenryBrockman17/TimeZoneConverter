@@ -8,11 +8,6 @@ body {
     background-color: #56596D;
 }
 
-/*
-    <!-- HTML !-->
-<button class="button-32" role="button">Button 32</button>
-*/
-
 button {
   background-color: #fff000;
   border-radius: 12px;
