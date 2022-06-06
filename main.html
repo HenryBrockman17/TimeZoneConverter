@@ -6,5 +6,19 @@
 </header>
 
 <body>
-    <button role="button">test</button>
+    <form onsubmit="changeTimeZone(time, timeZone)">
+        <label for="timeZone">Time Zone:</label>
+        <select name="timeZone" id="timeZone">
+            <option value="Honolulu">Honolulu</option>
+            <option value="Fiji">Fiji</option>
+            <option value="Australia">Australia</option>
+            <option value="New Caledonia">New Caledonia</option>
+            <option value="Vanuatu">Vanuatu</option>
+            <option value="Honiara">Honiara</option>
+            <option value="Papua New Guinea">Papua New Guinea</option>
+        </select>
+        <label for="time">Time:</label>
+        <input type="time" id="time">
+        <input type="submit" value="Submit" />
+  </form>
 </body>

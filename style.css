@@ -43,3 +43,7 @@ button:disabled {
   -webkit-filter: saturate(0.2) opacity(0.5);
   cursor: not-allowed;
 }
+
+form {
+    display: inline;
+}
