@@ -6,7 +6,7 @@
 </header>
 
 <body>
-    <form onsubmit="#">
+    <form onsubmit="changeTimeZone(time, timeZone)">
         <label for="timeZone">Time Zone:</label>
         <select name="timeZone" id="timeZone">
             <option value="Honolulu">Honolulu</option>
@@ -17,6 +17,8 @@
             <option value="Honiara">Honiara</option>
             <option value="Papua New Guinea">Papua New Guinea</option>
         </select>
+        <label for="time">Time:</label>
+        <input type="time" id="time">
         <input type="submit" value="Submit" />
   </form>
 </body>
