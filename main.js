@@ -107,5 +107,6 @@ function getTimeZones(time, timeZone) {
         var pst_time = changeTimeZone(stringToStringTime24(time), timeZone);
         all_times += inverseChangeTimeZone(stringToStringTime24(pst_time), key) + "\n";
     });
+    console.log(all_times);
     return all_times;
 }
