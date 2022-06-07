@@ -20,8 +20,7 @@ input[type=submit] {
     border-radius: 12px;
     border: solid 1px #fff000;
 
-    color: #000;
-    cursor: pointer;
+    cursor:pointer;
     font-weight: bold;
     padding: 0px;
     text-align: center;
@@ -47,4 +46,10 @@ form {
     text-align: center;
     margin: 20%;
     background-color: #7b7e90;
+}
+
+hr {
+    height: 0.2%;
+    border: none;
+    background-color: #fff000;
 }
