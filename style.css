@@ -2,10 +2,13 @@ header {
     width: 100%;
     background-color: #fff000;
     text-align: center;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
 }
 
 #headerText {
-    padding: 40px;
+    padding: 12px;
 }
 
 body {
@@ -51,4 +54,15 @@ hr {
     height: 0.2%;
     border: none;
     background-color: #fff000;
+}
+
+footer {
+    padding: 4%;
+    text-decoration-color: white;
+    width: 100%;
+    background-color: #1b1c21;
+    text-align: center;
+    position: fixed;
+    overflow: hidden;
+    bottom: 0;
 }
