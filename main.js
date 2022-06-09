@@ -1,7 +1,9 @@
+
 function stringTimeToFloat(time) {
     return parseFloat(time.substring(0, 2)) + parseFloat(time.substring(3, 5));
 }
 
+/*
 function stringToStringTime24(str) {
     var flag = str.substring(str.length() - 2) === "PM"
     var hour = parseInt(str.substring(0, 2));
@@ -21,6 +23,7 @@ function stringToStringTime24(str) {
     time += minute;
     return time;
 }
+*/
 
 function floatToStringTime(flo) {
     var flag = false;
@@ -66,7 +69,8 @@ function changeTimeZone(time, timeZone) {
     if (newTime > 24) {
         newTime -= 24;
     }
-    return floatToStringTime(newTime);
+    
+    alert(floatToStringTime(newTime));
 }
 
 

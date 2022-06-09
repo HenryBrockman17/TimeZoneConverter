@@ -6,14 +6,14 @@
 </header>
 
 <body>
-    <form onsubmit="changeTimeZone(time, timeZone)">
+    <form id="first" onsubmit="changeTimeZone(time.value, timeZone.value)">
         <label for="time">Time:</label>
         <br>
-        <input type="time" id="time">
+        <input type="time" id="time" required>
         <br><br>
         <label for="timeZone">Time Zone:</label>
         <br>
-        <select type="select" name="timeZone" id="timeZone">
+        <select type="select" name="timeZone" id="timeZone" required>
             <option value="Honolulu">Honolulu</option>
             <option value="Fiji">Fiji</option>
             <option value="Australia">Australia</option>
@@ -23,10 +23,10 @@
             <option value="Papua New Guinea">Papua New Guinea</option>
         </select>
         <br><br>
-        <input class="submit" type="submit" value="Submit">
+        <input class="submit" type="submit" value="submit">
         <br><br>
         <hr>
-        <h2 id="output">Temp Out Value</h2>
+        <h1 id="output"></h1>
   </form>
   <br>
 </body>
