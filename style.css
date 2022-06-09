@@ -51,7 +51,10 @@ input[type=select] {
 }
 
 form {
-    padding: 5%;
+    padding-left: 1%;
+    padding-right: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
     text-align: center;
     margin: 20%;
     background-color: #7b7e90;
@@ -59,6 +62,7 @@ form {
 
 hr {
     height: 0.2%;
+    width: 50%;
     border: none;
     background-color: #fff000;
 }
