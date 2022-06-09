@@ -18,10 +18,10 @@ function changeTimeZone(time, timeZone) {
     }
     if (hours>12) {
         hours-=12;
-        newTime+=hours+":"+minutes+" PM"
+        newTime+=hours+":"+minutes+" PM PST"
 
     } else {
-        newTime=hours+":"+minutes+" AM"
+        newTime=hours+":"+minutes+" AM PST"
     }
 
     //document.querySelector("#output").innerHTML = newTime;
